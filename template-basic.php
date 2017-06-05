@@ -4,7 +4,6 @@ Template Name: Template Blogger
 */
 
 get_header(); ?>
-<body>
 <div class="container">
   <?php
   while ( have_posts() ) : the_post();
@@ -19,5 +18,4 @@ get_header(); ?>
   endwhile; // End of the loop.
   ?>
 </div>
-</body>
 <?php get_footer(); ?>

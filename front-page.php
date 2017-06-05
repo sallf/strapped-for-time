@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<body>
 <div class="container">
   <?php
   while ( have_posts() ) : the_post();
@@ -14,5 +13,4 @@
   endwhile; // End of the loop.
   ?>
 </div>
-</body>
 <?php get_footer(); ?>
