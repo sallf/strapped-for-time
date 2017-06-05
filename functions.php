@@ -105,6 +105,10 @@ add_action( 'widgets_init', 'strapped_four_time_widgets_init' );
  * Enqueue scripts and styles.
  */
 function strapped_four_time_scripts() {
+	wp_deregister_script( 'jquery' ); // deregisters the default WordPress jQuery
+  wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"), false); // adds google jquery
+  wp_enqueue_script('jquery');
+	
 	wp_enqueue_style( 'strapped-four-time-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'strapped-four-time-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
