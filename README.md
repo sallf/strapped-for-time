@@ -7,3 +7,6 @@ Getting Started
     git submodule add https://github.com/twbs/bootstrap.git
     cd bootstrap
     git checkout remotes/origin/v4-dev
+
+Next Steps
+I recommend setting up a sass workflow with Grunt. If you're new [Tania Rascia](https://www.taniarascia.com/getting-started-with-grunt-and-sass/) has a great tutorial.
