@@ -1,3 +1,8 @@
 .DS_Store
 scss/css/*
-scss/!*.scss
+scss/.sass-cache
+scss/Gruntfile.js
+scss/package-lock.json
+scss/package.json
+scss/node_modules/**
+scss/node_modules
